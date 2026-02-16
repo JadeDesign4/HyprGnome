@@ -6,7 +6,7 @@
   <img src="https://img.shields.io" />
 </p>
 
-A collection of my personal configurations for a hybrid workflow on Arch Linux, blending the elegance of **GNOME** with the efficiency of **Hyprland**.
+A collection of my personal configurations for a hybrid workflow on Arch Linux blending the elegance of **Hyprland**.
 
 ## 📸 Showcase
 
@@ -21,7 +21,6 @@ A collection of my personal configurations for a hybrid workflow on Arch Linux, 
 | :--- | :--- |
 | **OS** | [Arch Linux](https://archlinux.org) |
 | **WM** | [Hyprland](https://hyprland.org) |
-| **DE** | [GNOME 4x](https://www.gnome.org) |
 | **Terminal** | Kitty / Ghostty |
 | **Shell** | Zsh (with Oh My Zsh) |
 | **Bar** | Waybar |
@@ -38,15 +37,23 @@ I use **GNU Stow** to manage these dotfiles.
    ```bash
    git clone https://github.com ~/dotfiles
    cd ~/dotfiles
-   
-2. **Apply Configurations:**
-    stow hypr
-    stow gnome
-    stow nvim
-    
-3. **Keybindings (Hyprland):**
+       
+2. **Keybindings (Hyprland):**
     Super + Q : Open Terminal
     Super + C : Kill Active window
     Super + M : Exit Hyprland
     Super + E : Open File Manager
+
+## Icons
+    Copy/Download the icons directory and rename it to ".icons" in 
+    your gnome home directory to activate the icons and cursors in 
+    the directory
+    
+    **Note**: Download gnome-tweaks and gnome extension to enable 
+    the icons and cursors
+    
+## Themes
+    My Themes for gnome destop environment are located in
+the topbar@gnome. Use the same steps for the icons, copy/download the directory and rename it to ".themes"
+
 

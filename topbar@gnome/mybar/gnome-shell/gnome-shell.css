@@ -1,0 +1,42 @@
+/* Container for the top bar */
+#panel {
+    background-color: rgba(30, 30, 46, 0.7); /* Deep dark with transparency */
+    color: rgba(221, 199, 161, 1);
+    border-radius: 12px;                      /* Rounded island look */
+    font-weight: bold;
+    height: 38px;
+    margin: 8px 12px 0px 12px;                /* Creates the 'floating' effect */
+    border: 1px solid rgba(255, 255, 255, 0.1); /* Subtle border for definition */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling the buttons on the bar */
+#panel .panel-button {
+    -side-heading-color: #cdd6f4;
+    color: #cdd6f4;                            /* Catppuccin-style text color */
+    padding: 0 12px;
+    margin: 4px 2px;
+    border-radius: 8px;
+    transition: background-color 0.2s;
+}
+
+#panel .panel-button:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #333;                            /* Blue accent on hover */
+    box-shadow: none;
+}
+
+/* Active indicator (when a menu is open) */
+#panel .panel-button:active, 
+#panel .panel-button:overview, 
+#panel .panel-button:focus {
+    background-color: rgba(137, 180, 250, 0.3);
+    color: #89dceb;
+}
+
+/* Remove the 'active' line at the bottom if it exists */
+.panel-button #symbols {
+    margin-bottom: 0;
+}
+
+

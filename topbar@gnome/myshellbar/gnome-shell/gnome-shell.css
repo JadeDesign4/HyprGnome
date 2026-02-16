@@ -1,0 +1,71 @@
+/* 1. Make the main bar completely transparent */
+#panel {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    height: 40px;
+    margin: 0;
+}
+
+/* 2. Style the individual segments (The "Pills") */
+#panel .panel-button {
+    background-color: rgba(30, 30, 46, 0.8); /* Catppuccin Mocha Dark */
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    margin: 6px 4px; /* Creates spacing between segments */
+    padding: 0 12px;
+    color: #cdd6f4;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* 3. Hover effects for the islands */
+#panel .panel-button:hover {
+    background-color: rgba(245, 62, 91, 0.9);
+    border: 1px solid rgba(255,255,255,0.1);
+    color: #fff;
+}
+
+#panel .panel-button:active{
+	background: rgba(245, 62, 91, 0.9);
+	border: 1px solid rgba(255,255,255,0.1);
+	color: #fff;
+}
+
+/* 4. Fix specific alignment for Ubuntu's App Menu */
+#panel .panel-button #appMenuIcon {
+    margin: 0;
+    padding: 0;
+}
+
+/* 5. Separate the right-side status indicators if needed */
+/* Note: GNOME groups these by default, so they stay in one pill. */
+#panel .aggregate-menu {
+   /* background-color: rgba(30, 30, 46, 0.9); */
+    border-radius: 12px;
+}
+
+/* TARGET THE CLOCK BUTTON DIRECTLY */
+#panel .panel-button.clock-display,
+#panel .clock-display,
+#panelMenu_dateMenu {
+    background-color: rgba(30, 30, 46, 0.8) !important;/*  Force the color */
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-radius: 12px !important;
+    margin: 6px 4px !important;
+    padding: 0 15px !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2) !important;
+}
+
+/* REMOVE THE UNDERLYING BOX THAT GNOME OFTEN USES */
+#panel .panel-button.clock-display:active,
+#panel .panel-button.clock-display:focus,
+#panel .panel-button.clock-display:hover {
+    background-color: rgba(245, 62, 91, 0.9) !important;
+    box-shadow: none !important;
+}
+
+/* TARGET THE INNER BOX IF THE OUTER ONE ISN'T RESPONDING */
+.clock-display .clock {
+   /* background-color: transparent !important; */
+}
