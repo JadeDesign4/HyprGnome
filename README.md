@@ -53,7 +53,8 @@ I use **GNU Stow** to manage these dotfiles.
     the icons and cursors
     
 ## Themes
-    My Themes for gnome destop environment are located in
-the topbar@gnome. Use the same steps for the icons, copy/download the directory and rename it to ".themes"
+    My Themes for gnome destop environment are located in the topbar@gnome.
+    Use the same steps for the icons, copy/download the directory and rename
+    it to ".themes"
 
 
