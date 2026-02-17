@@ -11,10 +11,10 @@ A collection of my personal configurations for a hybrid workflow on Arch Linux b
 ## 📸 Showcase
 
 ### Hyprland (The Tiling Speedster)
-![Hyprland Screenshot](./screenshots/hyprland.png)
+![Hyprland Screenshot](screens/hyprland.png)
 
 ### GNOME (The Polished Daily Driver)
-![GNOME Screenshot](./screenshots/gnome.png)
+![GNOME Screenshot](screens/gnome.png)
 
 ## 🖥️ System Specs
 | Component | Choice |
