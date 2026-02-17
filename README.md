@@ -11,7 +11,7 @@ A collection of my personal configurations for a hybrid workflow on Arch Linux b
 ## 📸 Showcase
 
 ### Hyprland (The Tiling Speedster)
-![Hyprland Screenshot](screens/hyprland.png)
+![Hyprland Screenshot](screens/arch.png)
 
 ### GNOME (The Polished Daily Driver)
 ![GNOME Screenshot](screens/gnome.png)
